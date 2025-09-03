@@ -1,0 +1,12 @@
+.title{
+    color: goldenrod;
+    font-size: 28px;
+    background-color: bisque;
+    text-align: center;
+    padding:10px
+}
+
+.text{
+    background-color: orange;
+    padding: 8px;
+}
