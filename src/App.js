@@ -19,13 +19,27 @@ import ArrayValueDeleteFilter from './U4List&Key/ArrayValueDeleteFilter';
 import ArrayValueDeleteSplice from './U4List&Key/ArrayValueDeleteSplice';
 import ObjectValue from './U4List&Key/ObjectValue';
 import ArrayofObjectValue from './U4List&Key/ArrayofObjectValue';
+import InlineCSS from './U5CSS/InlineCSS';
+import ExternalCSS from './U5CSS/ExternalCSS';
+import CSSModules from './U5CSS/CSSModules';
+import JSObjectCSS from './U5CSS/JSObjectCSS';
+import ToggleDarkLightMode from './U5CSS/ToggleDarkLightMode';
+
+import ChangeFontSize from './U5CSS/ChangeFontSize';
+import CelsiustoFahrenheit from './Project/CelsiustoFahrenheit';
+import GramToPavan from './Project/GramToPavan';
+import PPF from './Project/PPF';
+import Form from './U6Form/Form';
+import ControlledForm from './U6Form/ControlledForm';
+import UncontrolledForm from './U6Form/UncontrolledComponent';
+import CustomCounterApp from './U7CustomHook/CustomCounterApp';
 
 function App() {
   return (
     <div className="App">
       
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         {/* <h1>Welcome to Credo Systemz </h1> */}
        
         {/* <FunctionalComponent/>
@@ -54,7 +68,25 @@ function App() {
 
         {/* <ObjectValue/> */}
 
-        <ArrayofObjectValue/>
+        {/* <ArrayofObjectValue/> */}
+
+        {/* <InlineCSS/> */}
+        {/* <ExternalCSS/> */}
+        {/* <CSSModules/> */}
+        {/* <JSObjectCSS/> */}
+
+        {/* <ToggleDarkLightMode/> */}
+       {/* <ChangeFontSize/> */}
+
+       {/* <CelsiustoFahrenheit/> */}
+       {/* <GramToPavan/> */}
+       {/* <PPF/> */}
+
+       {/* <Form/> */}
+       {/* <ControlledForm/> */}
+       {/* <UncontrolledForm/> */}
+
+       <CustomCounterApp/>
        
       </header>
        
